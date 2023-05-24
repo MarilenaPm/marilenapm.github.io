@@ -1,0 +1,370 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.title {
+  font-size: 22px;
+  line-height: 3;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-me, .skills, .projects-list {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+/*HELLO*/
+.container-first {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 200px;
+  background-color: #eeeeee;
+  width: 100%;
+  position: relative;
+}
+
+.hello, .prof-pic {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.hello h1 {
+  font-size: 52px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.hello h2 {
+  font-size: 28px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 420px;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+.arrow {
+  position: absolute;
+  top: 700px;
+  left: 49%;
+}
+
+#helloCircle > mark {
+  position: relative;
+  background-color: #eeeeee;
+}
+
+#helloCircle > mark:after {
+  border: .06em solid #E61F93;
+  border-top: none;
+  border-radius: 1.5em 1em 2em 1.5em;
+  bottom: -.3em;
+  content: '';
+  left: -.3em;
+  position: absolute;
+  right: -.3em;
+  top: -.1em;
+}
+
+#helloCircle > mark:before {
+  border-top: .06em solid #E61F93;
+  border-radius: .8em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-2deg);
+  width: 7em;
+}
+
+/*INFORMATION*/
+.container-second {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: inline-flex;
+  background-color: #ffffff;
+  margin-left: 15%;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  border-right: 1px solid #777777;
+  padding-right: 100px;
+  width: 400px;
+}
+
+.skills {
+  padding-left: 100px;
+}
+
+.skills > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-svgs {
+  padding-right: 8px;
+}
+
+.projects > .title {
+  width: 150px;
+}
+
+.circle-about > mark {
+  position: relative;
+  background-color: #ffffff;
+}
+
+.circle-about > mark:after {
+  border: .06em solid #E61F93;
+  border-top: none;
+  border-radius: 1.5em 1em 2em 1.5em;
+  bottom: -.3em;
+  content: '';
+  left: -.3em;
+  position: absolute;
+  right: -.3em;
+  top: -.1em;
+}
+
+.circle-about > mark:before {
+  border-top: .06em solid #E61F93;
+  border-radius: .8em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-2deg);
+  width: 4em;
+}
+  
+.circle-skills > mark {
+  position: relative;
+  background-color: #ffffff;
+}
+    
+.circle-skills > mark:after {
+  border: .06em solid #E61F93;
+  border-top: none;
+  border-radius: 1.5em 1rem 2em 1.5em;
+  bottom: -.4em;
+  content: '';
+  left: -.3em;
+  position: absolute;
+  right: -.3em;
+  top: -.1em;
+}
+
+.circle-skills > mark:before {
+  border-top: .06em solid #E61F93;
+  border-radius: 1em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-3deg);
+  width: 4.2em;
+}
+
+/*PROJECTS*/
+.container-third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37vh;
+  position: relative;
+  padding-bottom: 200px;
+}
+
+.container-third > ul {
+  position: absolute;
+  top: 170px;
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+}
+
+.inside-list {
+  list-style: none;
+  line-height: 32px;
+}
+
+.links:link, .links:visited{
+  color:black;
+  text-decoration: none;
+  border-bottom: 1px solid #E61F93;
+}
+
+.links:active, .links:hover {
+  color: #E61F93;
+}
+    
+.circle-projects > mark {
+  position: relative;
+  background-color: #ffffff;
+}
+  
+.circle-projects > mark:after {
+  border: .06em solid #E61F93;
+  border-top: none;
+  border-radius: 1.5em 1.5em 2em 1.5em;
+  bottom: -.4em;
+  content: '';
+  left: -.2em;
+  position: absolute;
+  right: -.2em;
+  top: -.2em;
+}
+
+.circle-projects > mark:before {
+  border-top: .06em solid #E61F93;
+  border-radius: .8em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-1deg);
+  width: 6em;
+}
+  
+/*FOOTER*/
+.contact {
+  background-color: #eeeeee; 
+  padding-bottom: 70px;
+}
+
+footer > .title {
+  padding-top: 50px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+}
+
+.contact-list {
+  font-family: 'Open Sans', sans-serif;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  font-size: 0.9rem;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+.contact-list li {
+  margin-top: 20px;
+}
+  
+.circle-contact > mark {
+  position: relative;
+  background-color: #eeeeee;
+}
+
+.circle-contact > mark:after {
+  border: .06em solid #E61F93;
+  border-top: none;
+  border-radius: 1.5em 1.5em 2em 1.5em;
+  bottom: -.4em;
+  content: '';
+  left: -.2em;
+  position: absolute;
+  right: -.2em;
+  top: -.2em;
+}
+
+.circle-contact > mark:before {
+  border-top: .06em solid #E61F93;
+  border-radius: .8em;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -.3em;
+  transform: rotate(-1deg);
+  width: 6em;
+}
+
+@media (max-width: 1250px) {
+    .hello, .prof-pic {
+      margin-left: 100px;
+    }
+
+    .container-second {
+      margin-left: 8%;
+    }
+}
+
+@media (max-width: 1040px){
+  .container-first{
+    display: inline-block;
+    height: 120vh;
+    text-align: center;
+  }
+  
+  .hello > h2{
+    width: auto;
+  }
+
+  .prof-pic{
+    margin-top: 50px;
+  }
+
+  .container-second {
+    margin-left: 5%;
+  }
+
+  .about-me {
+    width: 350px;
+  }
+
+  .arrow {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 950px) {
+.container-second {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.about-me, .skills {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  width: auto;
+  border-right: 0px;
+}
+
+.container-third {
+  margin-left: 30px;
+}
+
+.contact-list {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.container-third > ul {
+  top: 140px;
+}
+}
+

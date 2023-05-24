@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Reservation</title>
+    <style>
+        body {
+            background-image: url(./images/pic.jpeg);
+            height: 1000px;
+        }
+
+        .input-field {
+            border-radius: 7px;
+        }
+        
+        input[type=submit] {
+            background-color: #00cc00; 
+        }
+
+        input[type=submit]:hover {
+            background-color: #00ff00;
+        }
+
+        .attributes {
+            color: #9047ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <p>* Υποχρεωτικό πεδίο</p>
+
+    <form>
+        <label for="onoma" class="attributes">Όνομα*:</label><br>
+        <input class="input-field" type="text" id="onoma" name="onoma" placeholder="Όνομα"><br><br>
+
+        <label for="eponimo" class="attributes">Επώνυμο*:</label><br>
+        <input class="input-field" type="text" id="eponimo" name="eponimo" placeholder="Επώνυμο"><br><br>
+
+        <label for="email" class="attributes">Email address*:</label><br>
+        <input class="input-field" type="email" id="email" name="email" placeholder="Email address"><br><br>
+
+        <label for="proorismo" class="attributes">Επιλέξτε Προορισμό*:</label><br>
+        <select class="input-field" id="proorismo" name="proorismo">
+            <option value="kriti">Κρήτη</option>
+            <option value="santorini">Σαντορίνη</option>
+            <option value="zakintho">Ζάκυνθο</option>
+            <option value="serifo">Σέριφο</option>
+        </select><br><br>
+
+        <label for="afixi" class="attributes">Ημερομηνία Άφιξης*:</label><br>
+        <input class="input-field" type="text" id="afixi" name="afixi" placeholder="Η/Μ/Ε"><br><br>
+
+        <label for="apoxorisi" class="attributes">Ημερομηνία Αποχώρησης*:</label><br>
+        <input class="input-field" type="text" id="apoxorisi" name="apoxorisi" placeholder="Η/Μ/Ε"><br><br>
+
+
+        <label for="atoma" class="attributes">Αριθμός Ατόμων*:</label><br>
+        <input class="input-field" type="number" id="atoma" name="atoma"><br><br>
+
+        <label class="attributes">Τι θέλετε να περιλαμβάνει η κράτηση*:</label><br>
+        <label for="imidiatrofi" class="attributes">Ημηδιατροφή</label>
+        <input type="checkbox" id="imidiatrofi" name="imidiatrofi" value="imidiatrofi"><br>
+        <label for="aerodromio" class="attributes">Παραλαβή από Αεροδρόμιο</label>
+        <input type="checkbox" id="aerodromio" name="aerodromio" value="aerodromio"><br>
+        <label for="xenagisi" class="attributes">Ξενάγηση σε αξιοθέατα</label>
+        <input type="checkbox" id="xenagisi" name="xenagisi" value="xenagisi"><br><br>
+
+        <label for="discount" class="attributes">Discount Coupon code</label><br>
+        <input class="input-field" type="text" id="discount" name="discount"><br><br>
+
+        <label class="attributes">Όροι και προυποθέσεις*</label><br>
+        <input type="radio" id="simfono" name="oroi" value="simfono">
+        <label for="simfono" class="attributes">Συμφωνώ</label>
+        <input type="radio" id="diafono" name="oroi" value="diafono">
+        <label for="diafono" class="attributes">Δεν συμφωνώ</label><br><br>
+
+        <input class="input-field" type="submit" value="Ολοκλήρωση Κράτησης">
+    </form>
+</body>
+</html>

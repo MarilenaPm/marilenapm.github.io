@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marilena Pairi</title>
+    <link rel="stylesheet" href="style.css">
+<!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+<!--FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--JS-->
+    <script>
+        window.addEventListener('resize', function() {
+        var circleElement = document.getElementById('helloCircle');
+        var screenWidth = window.innerWidth;
+        
+        if (screenWidth < 1000) {
+        circleElement.innerHTML = '<br><mark>Web Developer!</mark>';
+        }
+        else{
+        circleElement.innerHTML = ' <mark>Web Developer!</mark>';
+        }
+        }); 
+        </script>
+
+</head>
+<body>
+<!--HELLO--> 
+    <div class="container-first">
+        <div class="hello">
+            <h1>Hello!</h1>
+                <h2>My name is Marilena Pairi and I am a <test id="helloCircle"><mark>Web Developer!</mark></test></h2>
+        </div>
+        <div class="prof-pic">
+            <img src="./images/web-prof.png" alt="me" height="400px"/>
+        </div>
+
+        <img class="arrow" src="./images/arrow.gif" alt="arrow" height="40"/>
+    </div>
+
+<!--INFORMATION--> 
+    <div class="container-second">
+        <div class="about-me">
+            <p class="title circle-about"><mark>About me</mark></p>
+            <p>Hello there! I'm a passionate Web Developer from Greece currently studying at IEK ALPHA in Athens.
+            I constantly seek opportunities to expand my knowledge and skills. Problem solving is my forte,
+            and I enjoy creating beautiful, efficient, and functional websites. I am an active person with 
+            a will to learn and develop and I enjoy working with people who inspire me and share the same passion for results.  
+            </p>
+        </div>  
+        
+        <div class="skills">
+            <p class="title circle-skills"><mark>My Skills</mark></p>
+            <ul class="skill-list">
+                    <li><img src="./images/html.svg" alt="HTML" height="20" class="list-svgs"/>HTML</li>
+                    <li><img src="./images/css3.svg" alt="css" height="20" class="list-svgs"/>CSS</li>
+                    <li><img src="./images/sass.svg" alt="sass" height="20" class="list-svgs"/>Sass</li>
+                    <li><img src="./images/bootstrap.svg" alt="bootstrap" height="20" class="list-svgs"/>Bootstrap</li>
+                    <li><img src="./images/javascript.svg" alt="javascript" height="20" class="list-svgs"/>JavaScript</li>
+                    <li><img src="./images/c.svg" alt="c" height="20" class="list-svgs"/>C/C++</li>
+                    <li><img src="./images/python.svg" alt="python" height="20" class="list-svgs"/>Python</li>
+                    <li><img src="./images/linux.svg" alt="linux" height="20" class="list-svgs"/>Unix/Linux</li>
+                    <li><img src="./images/powershell.svg" alt="powershell" height="20" class="list-svgs"/>Powershell</li>
+                    
+                </ul>
+        </div>
+    </div>
+
+<!--PROJECTS-->
+    <div class="container-third">
+        <p class="title circle-projects"><mark>my projects</mark></p>
+        <ul class="projects-list">
+            <li><img src="./images/idea.svg" alt="projects" height="20" class="list-svgs"/>IEK ALPHA</li>
+                <ul class="inside-list">
+                    <li><a href="./projects/islands/index.html" target="_blank" class="links"><i>Islands in Greece</i></a></li>
+                    <li><a href="./projects/fruits/index.html" target="_blank" class="links"><i>Summer Fruits Catalog</i></a></li>
+                    <li><a href="./projects/travel/index.html" target="_blank" class="links"><i>Travel Reservation</i></a></li>
+                </ul>
+
+            <li><img src="./images/idea.svg" alt="projects" height="20" class="list-svgs"/>The Complete 2023 Web Development Bootcamp</li>
+                <ul class="inside-list">
+                    <li><a href="./projects/tindog/tindog.html" target="_blank" class="links"><i>TinDog</i></a></li>
+                    <li><a href="./projects/flag/index.html" target="_blank" class="links"><i>Flag of Laos with CSS</i></a></li>
+                    <li><a href="./projects/mondrian/index.html" target="_blank" class="links"><i>Mondrian Project</i></a></li>
+                </ul>
+
+        </ul>
+    </div>
+
+<!--FOOTER-->
+    <div class="contact">
+        <footer>
+            <p class="title circle-contact"><mark>contact me</mark></p>
+            <ul class="contact-list">
+                <li><img src="./images/gmail.svg" alt="gmail" height="30" class="list-svgs"/>Email: <a href="mailto:marilenapairim@gmail.com" class="links">marilenapairim@gmail.com</a></li>
+                <li><img src="./images/linkedin.svg" alt="linkedin" height="30" class="list-svgs"/>Linkedin: <a href="https://www.linkedin.com/in/marilena-pairi-58083826b/" target="_blank" class="links">Marilena Pairi</a></li>
+                <li><img src="./images/github-logo.svg" alt="github" height="30" class="list-svgs"/>Github: <a href="https://github.com/MarilenaPm" target="_blank" class="links">MarilenaPm</a></li>
+                <li><img src="./images/instagram.svg" alt="instagram" height="30" class="list-svgs"/>Instagram: <a href="https://www.instagram.com/marilena.pm_/" target="_blank" class="links">@marilena.pm_</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>

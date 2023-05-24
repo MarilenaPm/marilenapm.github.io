@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Nησιά της Ελλάδας</title>
+    <style>
+        caption {
+            font-weight: bold;
+            padding: 10px;
+            font-size: 30px;
+        }
+
+        table {
+            width: 100%;
+            color: #0b6bfd;
+            font-family: Helvetica;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid transparent;
+            height: 30px;
+            transition: all 1.5s;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        th {
+            font-size: 20px;
+            padding: 15px;
+        }
+
+        th.kyklades {
+            background-color: #aaf2aa;
+        }
+
+        th.eptanisa {
+            background-color: #97b3eb;
+        }
+
+        td {
+            background-color: #FAFAFA;
+        }
+
+        tr:nth-child(even) td{
+            background-color: #ededed;
+        }
+
+        tr:nth-child(odd) td{
+            background-color: #FEFEFE;
+        }
+
+        tr td:hover {
+            background-color: #666;
+            color: #fff;
+        }
+
+        img {
+            border-radius: 25px;
+            width: 150px;
+            height: 200px;
+            padding: 1%;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Αγαπημένα νησιά της Ελλάδας</caption>
+        <tr>
+            <th colspan="2" class="kyklades">Κυκλάδες</th>
+            <th colspan="2" class="eptanisa">Επτάνησα</th>
+        </tr>
+        <tr>
+            <td>Σαντορίνη</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7" target="_blank"><img src="./photos/santorini.jpg" alt="Σαντορίνη" /></a></td>
+            <td>Κεφαλονιά</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%9A%CE%B5%CF%86%CE%B1%CE%BB%CE%BF%CE%BD%CE%B9%CE%AC" target="_blank"><img src="./photos/kefalonia.jpg" alt="Κεφαλονιά"/></a></td>
+        </tr>
+        <tr>
+            <td>Άνδρος</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%86%CE%BD%CE%B4%CF%81%CE%BF%CF%82" target="_blank"><img src="./photos/andros.jpg" alt="Άνδρος" /></a></td>
+            <td>Ζάκυνθος</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%96%CE%AC%CE%BA%CF%85%CE%BD%CE%B8%CE%BF%CF%82" target="_blank"><img src="./photos/zakynthos.jpg" alt="Ζάκυνθος" /></a></td>
+        </tr>
+        <tr>
+            <td>Πάρος</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%A0%CE%AC%CF%81%CE%BF%CF%82" target="_blank"><img src="./photos/paros.jpg" alt="Πάρος" /></a></td>
+            <td>Λευκάδα</td>
+            <td><a href="https://el.wikipedia.org/wiki/%CE%9B%CE%B5%CF%85%CE%BA%CE%AC%CE%B4%CE%B1" target="_blank"><img src="./photos/leykada.jpg" alt="Λευκάδα" /></a></td>
+        </tr>
+    </table>
+ 
+</body>
+</html>
