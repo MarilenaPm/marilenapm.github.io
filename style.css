@@ -93,7 +93,7 @@ body {
 /*INFORMATION*/
 .container-second {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   display: inline-flex;
   background-color: #ffffff;
   margin-left: 15%;
@@ -188,7 +188,7 @@ body {
   align-items: center;
   height: fit-content;
   position: relative;
-  padding-bottom: 350px;
+  padding-bottom: 435px;
 }
 
 .container-third > ul {
